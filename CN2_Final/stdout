@@ -1,0 +1,25 @@
+---------------------------------------
+Begin PBS Prologue Wed Mar 30 15:39:14 EDT 2022
+Job ID:     4246985.sched-torque.pace.gatech.edu
+User ID:    bchen380
+Job name:   CN2
+Queue:      inferno
+End PBS Prologue Wed Mar 30 15:39:15 EDT 2022
+---------------------------------------
+Requirement already satisfied: py-hostlist in /storage/home/hcoda1/0/bchen380/.local/lib/python3.7/site-packages (0.0.2.dev0)
+/storage/coda1/p-amedford6/0/bchen380/C22/N2_C
+CMD mpirun -wdir /storage/home/hcoda1/0/bchen380/scratch/qe_1064200_4246985.sched-torque.pace.gatech.edu_fy6lnpf_scratch pw.x -in /storage/coda1/p-amedford6/0/bchen380/C22/N2_C/qe_4246985.sched-torque.pace.gatech.edu/pw.inp --ipi qe_1064200_4246985.sched-torque.pace.gatech.edu_fy6lnpf_scratch:UNIX >> /storage/coda1/p-amedford6/0/bchen380/C22/N2_C/qe_4246985.sched-torque.pace.gatech.edu/pw.out
+46912896331280 Awaiting client
+----------> <socket.socket fd=8, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=/tmp/ipi_qe_1064200_4246985.sched-torque.pace.gatech.edu_fy6lnpf_scratch> 
+---------------------------------------
+Begin PBS Epilogue Thu Mar 31 01:44:08 EDT 2022
+Job ID:     4246985.sched-torque.pace.gatech.edu
+User ID:    bchen380
+Job name:   CN2
+Resources:  walltime=48:00:00,nodes=1:ppn=16,pmem=16b,neednodes=1:ppn=16
+Rsrc Used:  cput=159:33:56,vmem=111625912kb,walltime=10:04:54,mem=67754904kb,energy_used=0
+Queue:      inferno
+Nodes:     
+atl1-1-02-012-31-r.pace.gatech.edu
+End PBS Epilogue Thu Mar 31 01:44:09 EDT 2022
+---------------------------------------
