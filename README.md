@@ -2,7 +2,7 @@
 
 This is a project under Georgia Tech Virtically Integrated Program, Bid Data and Quantum Mechanics, supervised by Dr. Andrew Medford. The course information can be found [here](https://github.com/medford-group/bdqm-vip/blob/master/project_descriptions/data_generation-pblock_dopants.md)
 
-This page consist of Boron doped TiO~2 with adsorbate, Carbon doped TiO~2 with adsorbate and empty slab. All these work are my individual work, however I collab with other two group mates Ramon, Jason, and Cody on other p-block elemets as well as performing the data analysis. 
+This page consist of Boron doped TiO~2~ with adsorbate, Carbon doped TiO~2~ with adsorbate and empty slab. All these work are my individual work, however I collab with other two group mates Ramon, Jason, and Cody on other p-block elemets as well as performing the data analysis. 
 
 ## Boron
 Default distance of adsorbate is 1.2 Angstrom (while we used to use 1.348 Angstrom)
