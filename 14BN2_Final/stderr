@@ -1,0 +1,378 @@
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/esp_pseudos_old
+[atl1-1-02-002-4-r:153455:0:153455] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[atl1-1-02-002-4-r:153465:0:153465] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[atl1-1-02-002-4-r:153467:0:153467] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[atl1-1-02-002-4-r:153458:0:153458] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[atl1-1-02-002-4-r:153459:0:153459] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[atl1-1-02-002-4-r:153460:0:153460] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[atl1-1-02-002-4-r:153462:0:153462] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[atl1-1-02-002-4-r:153464:0:153464] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[atl1-1-02-002-4-r:153468:0:153468] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[atl1-1-02-002-4-r:153469:0:153469] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[atl1-1-02-002-4-r:153470:0:153470] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[atl1-1-02-002-4-r:153456:0:153456] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[atl1-1-02-002-4-r:153457:0:153457] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[atl1-1-02-002-4-r:153461:0:153461] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[atl1-1-02-002-4-r:153463:0:153463] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[atl1-1-02-002-4-r:153466:0:153466] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+==== backtrace (tid: 153470) ====
+ 0 0x0000000000526e68 forces_.h()  forces.f90:0
+ 1 0x000000000041710e run_driver_IP_driver_posdata_.h()  run_driver.f90:0
+ 2 0x0000000000414462 run_driver_.h()  run_driver.f90:0
+ 3 0x0000000000413290 MAIN__()  ???:0
+ 4 0x00000000004130d2 main()  ???:0
+ 5 0x0000000000022555 __libc_start_main()  ???:0
+ 6 0x0000000000412fe9 _start()  ???:0
+=================================
+forrtl: severe (174): SIGSEGV, segmentation fault occurred
+Image              PC                Routine            Line        Source             
+pw.x               0000000001CE09B3  Unknown               Unknown  Unknown
+libpthread-2.17.s  00002AAAB1CE2630  Unknown               Unknown  Unknown
+pw.x               0000000000526E68  Unknown               Unknown  Unknown
+pw.x               000000000041710E  Unknown               Unknown  Unknown
+pw.x               0000000000414462  Unknown               Unknown  Unknown
+pw.x               0000000000413290  Unknown               Unknown  Unknown
+pw.x               00000000004130D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AAAB39E2555  __libc_start_main     Unknown  Unknown
+pw.x               0000000000412FE9  Unknown               Unknown  Unknown
+==== backtrace (tid: 153466) ====
+ 0 0x0000000000526e68 forces_.h()  forces.f90:0
+ 1 0x000000000041710e run_driver_IP_driver_posdata_.h()  run_driver.f90:0
+ 2 0x0000000000414462 run_driver_.h()  run_driver.f90:0
+ 3 0x0000000000413290 MAIN__()  ???:0
+ 4 0x00000000004130d2 main()  ???:0
+ 5 0x0000000000022555 __libc_start_main()  ???:0
+ 6 0x0000000000412fe9 _start()  ???:0
+=================================
+==== backtrace (tid: 153468) ====
+ 0 0x0000000000526e68 forces_.h()  forces.f90:0
+ 1 0x000000000041710e run_driver_IP_driver_posdata_.h()  run_driver.f90:0
+==== backtrace (tid: 153455) ====
+ 0 0x0000000000526e68 forces_.h()  forces.f90:0
+ 1 0x000000000041710e run_driver_IP_driver_posdata_.h()  run_driver.f90:0
+ 2 0x0000000000414462 run_driver_.h()  run_driver.f90:0
+ 3 0x0000000000413290 MAIN__()  ???:0
+ 4 0x00000000004130d2 main()  ???:0
+ 5 0x0000000000022555 __libc_start_main()  ???:0
+ 6 0x0000000000412fe9 _start()  ???:0
+=================================
+ 2 0x0000000000414462 run_driver_.h()  run_driver.f90:0
+ 3 0x0000000000413290 MAIN__()  ???:0
+ 4 0x00000000004130d2 main()  ???:0
+ 5 0x0000000000022555 __libc_start_main()  ???:0
+ 6 0x0000000000412fe9 _start()  ???:0
+=================================
+==== backtrace (tid: 153460) ====
+ 0 0x0000000000526e68 forces_.h()  forces.f90:0
+ 1 0x000000000041710e run_driver_IP_driver_posdata_.h()  run_driver.f90:0
+ 2 0x0000000000414462 run_driver_.h()  run_driver.f90:0
+ 3 0x0000000000413290 MAIN__()  ???:0
+ 4 0x00000000004130d2 main()  ???:0
+ 5 0x0000000000022555 __libc_start_main()  ???:0
+ 6 0x0000000000412fe9 _start()  ???:0
+=================================
+==== backtrace (tid: 153459) ====
+ 0 0x0000000000526e68 forces_.h()  forces.f90:0
+ 1 0x000000000041710e run_driver_IP_driver_posdata_.h()  run_driver.f90:0
+ 2 0x0000000000414462 run_driver_.h()  run_driver.f90:0
+ 3 0x0000000000413290 MAIN__()  ???:0
+ 4 0x00000000004130d2 main()  ???:0
+ 5 0x0000000000022555 __libc_start_main()  ???:0
+ 6 0x0000000000412fe9 _start()  ???:0
+=================================
+==== backtrace (tid: 153463) ====
+ 0 0x0000000000526e68 forces_.h()  forces.f90:0
+ 1 0x000000000041710e run_driver_IP_driver_posdata_.h()  run_driver.f90:0
+ 2 0x0000000000414462 run_driver_.h()  run_driver.f90:0
+ 3 0x0000000000413290 MAIN__()  ???:0
+ 4 0x00000000004130d2 main()  ???:0
+ 5 0x0000000000022555 __libc_start_main()  ???:0
+ 6 0x0000000000412fe9 _start()  ???:0
+=================================
+==== backtrace (tid: 153465) ====
+ 0 0x0000000000526e68 forces_.h()  forces.f90:0
+ 1 0x000000000041710e run_driver_IP_driver_posdata_.h()  run_driver.f90:0
+ 2 0x0000000000414462 run_driver_.h()  run_driver.f90:0
+ 3 0x0000000000413290 MAIN__()  ???:0
+ 4 0x00000000004130d2 main()  ???:0
+ 5 0x0000000000022555 __libc_start_main()  ???:0
+ 6 0x0000000000412fe9 _start()  ???:0
+=================================
+forrtl: severe (174): SIGSEGV, segmentation fault occurred
+Image              PC                Routine            Line        Source             
+pw.x               0000000001CE09B3  Unknown               Unknown  Unknown
+libpthread-2.17.s  00002AAAB1CE2630  Unknown               Unknown  Unknown
+pw.x               0000000000526E68  Unknown               Unknown  Unknown
+pw.x               000000000041710E  Unknown               Unknown  Unknown
+pw.x               0000000000414462  Unknown               Unknown  Unknown
+pw.x               0000000000413290  Unknown               Unknown  Unknown
+pw.x               00000000004130D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AAAB39E2555  __libc_start_main     Unknown  Unknown
+pw.x               0000000000412FE9  Unknown               Unknown  Unknown
+forrtl: severe (174): SIGSEGV, segmentation fault occurred
+Image              PC                Routine            Line        Source             
+pw.x               0000000001CE09B3  Unknown               Unknown  Unknown
+libpthread-2.17.s  00002AAAB1CE2630  Unknown               Unknown  Unknown
+pw.x               0000000000526E68  Unknown               Unknown  Unknown
+pw.x               000000000041710E  Unknown               Unknown  Unknown
+pw.x               0000000000414462  Unknown               Unknown  Unknown
+pw.x               0000000000413290  Unknown               Unknown  Unknown
+pw.x               00000000004130D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AAAB39E2555  __libc_start_main     Unknown  Unknown
+pw.x               0000000000412FE9  Unknown               Unknown  Unknown
+forrtl: severe (174): SIGSEGV, segmentation fault occurred
+Image              PC                Routine            Line        Source             
+pw.x               0000000001CE09B3  Unknown               Unknown  Unknown
+libpthread-2.17.s  00002AAAB1CE2630  Unknown               Unknown  Unknown
+pw.x               0000000000526E68  Unknown               Unknown  Unknown
+pw.x               000000000041710E  Unknown               Unknown  Unknown
+pw.x               0000000000414462  Unknown               Unknown  Unknown
+pw.x               0000000000413290  Unknown               Unknown  Unknown
+pw.x               00000000004130D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AAAB39E2555  __libc_start_main     Unknown  Unknown
+pw.x               0000000000412FE9  Unknown               Unknown  Unknown
+forrtl: severe (174): SIGSEGV, segmentation fault occurred
+Image              PC                Routine            Line        Source             
+pw.x               0000000001CE09B3  Unknown               Unknown  Unknown
+libpthread-2.17.s  00002AAAB1CE2630  Unknown               Unknown  Unknown
+pw.x               0000000000526E68  Unknown               Unknown  Unknown
+pw.x               000000000041710E  Unknown               Unknown  Unknown
+pw.x               0000000000414462  Unknown               Unknown  Unknown
+pw.x               0000000000413290  Unknown               Unknown  Unknown
+pw.x               00000000004130D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AAAB39E2555  __libc_start_main     Unknown  Unknown
+pw.x               0000000000412FE9  Unknown               Unknown  Unknown
+forrtl: severe (174): SIGSEGV, segmentation fault occurred
+Image              PC                Routine            Line        Source             
+pw.x               0000000001CE09B3  Unknown               Unknown  Unknown
+libpthread-2.17.s  00002AAAB1CE2630  Unknown               Unknown  Unknown
+pw.x               0000000000526E68  Unknown               Unknown  Unknown
+pw.x               000000000041710E  Unknown               Unknown  Unknown
+pw.x               0000000000414462  Unknown               Unknown  Unknown
+pw.x               0000000000413290  Unknown               Unknown  Unknown
+pw.x               00000000004130D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AAAB39E2555  __libc_start_main     Unknown  Unknown
+pw.x               0000000000412FE9  Unknown               Unknown  Unknown
+forrtl: severe (174): SIGSEGV, segmentation fault occurred
+Image              PC                Routine            Line        Source             
+pw.x               0000000001CE09B3  Unknown               Unknown  Unknown
+libpthread-2.17.s  00002AAAB1CE2630  Unknown               Unknown  Unknown
+pw.x               0000000000526E68  Unknown               Unknown  Unknown
+pw.x               000000000041710E  Unknown               Unknown  Unknown
+pw.x               0000000000414462  Unknown               Unknown  Unknown
+pw.x               0000000000413290  Unknown               Unknown  Unknown
+pw.x               00000000004130D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AAAB39E2555  __libc_start_main     Unknown  Unknown
+pw.x               0000000000412FE9  Unknown               Unknown  Unknown
+forrtl: severe (174): SIGSEGV, segmentation fault occurred
+Image              PC                Routine            Line        Source             
+pw.x               0000000001CE09B3  Unknown               Unknown  Unknown
+libpthread-2.17.s  00002AAAB1CE2630  Unknown               Unknown  Unknown
+pw.x               0000000000526E68  Unknown               Unknown  Unknown
+pw.x               000000000041710E  Unknown               Unknown  Unknown
+pw.x               0000000000414462  Unknown               Unknown  Unknown
+pw.x               0000000000413290  Unknown               Unknown  Unknown
+pw.x               00000000004130D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AAAB39E2555  __libc_start_main     Unknown  Unknown
+pw.x               0000000000412FE9  Unknown               Unknown  Unknown
+==== backtrace (tid: 153461) ====
+ 0 0x0000000000526e68 forces_.h()  forces.f90:0
+ 1 0x000000000041710e run_driver_IP_driver_posdata_.h()  run_driver.f90:0
+ 2 0x0000000000414462 run_driver_.h()  run_driver.f90:0
+ 3 0x0000000000413290 MAIN__()  ???:0
+ 4 0x00000000004130d2 main()  ???:0
+ 5 0x0000000000022555 __libc_start_main()  ???:0
+ 6 0x0000000000412fe9 _start()  ???:0
+=================================
+forrtl: severe (174): SIGSEGV, segmentation fault occurred
+Image              PC                Routine            Line        Source             
+pw.x               0000000001CE09B3  Unknown               Unknown  Unknown
+libpthread-2.17.s  00002AAAB1CE2630  Unknown               Unknown  Unknown
+pw.x               0000000000526E68  Unknown               Unknown  Unknown
+pw.x               000000000041710E  Unknown               Unknown  Unknown
+pw.x               0000000000414462  Unknown               Unknown  Unknown
+pw.x               0000000000413290  Unknown               Unknown  Unknown
+pw.x               00000000004130D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AAAB39E2555  __libc_start_main     Unknown  Unknown
+pw.x               0000000000412FE9  Unknown               Unknown  Unknown
+==== backtrace (tid: 153462) ====
+ 0 0x0000000000526e68 forces_.h()  forces.f90:0
+ 1 0x000000000041710e run_driver_IP_driver_posdata_.h()  run_driver.f90:0
+ 2 0x0000000000414462 run_driver_.h()  run_driver.f90:0
+ 3 0x0000000000413290 MAIN__()  ???:0
+ 4 0x00000000004130d2 main()  ???:0
+ 5 0x0000000000022555 __libc_start_main()  ???:0
+ 6 0x0000000000412fe9 _start()  ???:0
+=================================
+==== backtrace (tid: 153467) ====
+ 0 0x0000000000526e68 forces_.h()  forces.f90:0
+ 1 0x000000000041710e run_driver_IP_driver_posdata_.h()  run_driver.f90:0
+ 2 0x0000000000414462 run_driver_.h()  run_driver.f90:0
+ 3 0x0000000000413290 MAIN__()  ???:0
+ 4 0x00000000004130d2 main()  ???:0
+ 5 0x0000000000022555 __libc_start_main()  ???:0
+ 6 0x0000000000412fe9 _start()  ???:0
+=================================
+forrtl: severe (174): SIGSEGV, segmentation fault occurred
+Image              PC                Routine            Line        Source             
+pw.x               0000000001CE09B3  Unknown               Unknown  Unknown
+libpthread-2.17.s  00002AAAB1CE2630  Unknown               Unknown  Unknown
+pw.x               0000000000526E68  Unknown               Unknown  Unknown
+pw.x               000000000041710E  Unknown               Unknown  Unknown
+pw.x               0000000000414462  Unknown               Unknown  Unknown
+pw.x               0000000000413290  Unknown               Unknown  Unknown
+pw.x               00000000004130D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AAAB39E2555  __libc_start_main     Unknown  Unknown
+pw.x               0000000000412FE9  Unknown               Unknown  Unknown
+forrtl: severe (174): SIGSEGV, segmentation fault occurred
+Image              PC                Routine            Line        Source             
+pw.x               0000000001CE09B3  Unknown               Unknown  Unknown
+libpthread-2.17.s  00002AAAB1CE2630  Unknown               Unknown  Unknown
+pw.x               0000000000526E68  Unknown               Unknown  Unknown
+pw.x               000000000041710E  Unknown               Unknown  Unknown
+pw.x               0000000000414462  Unknown               Unknown  Unknown
+pw.x               0000000000413290  Unknown               Unknown  Unknown
+pw.x               00000000004130D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AAAB39E2555  __libc_start_main     Unknown  Unknown
+pw.x               0000000000412FE9  Unknown               Unknown  Unknown
+==== backtrace (tid: 153456) ====
+ 0 0x0000000000526e68 forces_.h()  forces.f90:0
+ 1 0x000000000041710e run_driver_IP_driver_posdata_.h()  run_driver.f90:0
+ 2 0x0000000000414462 run_driver_.h()  run_driver.f90:0
+ 3 0x0000000000413290 MAIN__()  ???:0
+ 4 0x00000000004130d2 main()  ???:0
+ 5 0x0000000000022555 __libc_start_main()  ???:0
+ 6 0x0000000000412fe9 _start()  ???:0
+=================================
+/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/utils/__init__.py:62: FutureWarning: Please use atoms.cell.rank instead
+  warnings.warn(warning)
+==== backtrace (tid: 153457) ====
+ 0 0x0000000000526e68 forces_.h()  forces.f90:0
+ 1 0x000000000041710e run_driver_IP_driver_posdata_.h()  run_driver.f90:0
+ 2 0x0000000000414462 run_driver_.h()  run_driver.f90:0
+ 3 0x0000000000413290 MAIN__()  ???:0
+ 4 0x00000000004130d2 main()  ???:0
+ 5 0x0000000000022555 __libc_start_main()  ???:0
+ 6 0x0000000000412fe9 _start()  ???:0
+=================================
+forrtl: severe (174): SIGSEGV, segmentation fault occurred
+Image              PC                Routine            Line        Source             
+pw.x               0000000001CE09B3  Unknown               Unknown  Unknown
+libpthread-2.17.s  00002AAAB1CE2630  Unknown               Unknown  Unknown
+pw.x               0000000000526E68  Unknown               Unknown  Unknown
+pw.x               000000000041710E  Unknown               Unknown  Unknown
+pw.x               0000000000414462  Unknown               Unknown  Unknown
+pw.x               0000000000413290  Unknown               Unknown  Unknown
+pw.x               00000000004130D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AAAB39E2555  __libc_start_main     Unknown  Unknown
+pw.x               0000000000412FE9  Unknown               Unknown  Unknown
+==== backtrace (tid: 153464) ====
+ 0 0x0000000000526e68 forces_.h()  forces.f90:0
+ 1 0x000000000041710e run_driver_IP_driver_posdata_.h()  run_driver.f90:0
+ 2 0x0000000000414462 run_driver_.h()  run_driver.f90:0
+ 3 0x0000000000413290 MAIN__()  ???:0
+ 4 0x00000000004130d2 main()  ???:0
+ 5 0x0000000000022555 __libc_start_main()  ???:0
+ 6 0x0000000000412fe9 _start()  ???:0
+=================================
+forrtl: severe (174): SIGSEGV, segmentation fault occurred
+Image              PC                Routine            Line        Source             
+pw.x               0000000001CE09B3  Unknown               Unknown  Unknown
+libpthread-2.17.s  00002AAAB1CE2630  Unknown               Unknown  Unknown
+pw.x               0000000000526E68  Unknown               Unknown  Unknown
+pw.x               000000000041710E  Unknown               Unknown  Unknown
+pw.x               0000000000414462  Unknown               Unknown  Unknown
+pw.x               0000000000413290  Unknown               Unknown  Unknown
+pw.x               00000000004130D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AAAB39E2555  __libc_start_main     Unknown  Unknown
+pw.x               0000000000412FE9  Unknown               Unknown  Unknown
+forrtl: severe (174): SIGSEGV, segmentation fault occurred
+Image              PC                Routine            Line        Source             
+pw.x               0000000001CE09B3  Unknown               Unknown  Unknown
+libpthread-2.17.s  00002AAAB1CE2630  Unknown               Unknown  Unknown
+pw.x               0000000000526E68  Unknown               Unknown  Unknown
+pw.x               000000000041710E  Unknown               Unknown  Unknown
+pw.x               0000000000414462  Unknown               Unknown  Unknown
+pw.x               0000000000413290  Unknown               Unknown  Unknown
+pw.x               00000000004130D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AAAB39E2555  __libc_start_main     Unknown  Unknown
+pw.x               0000000000412FE9  Unknown               Unknown  Unknown
+==== backtrace (tid: 153458) ====
+ 0 0x0000000000526e68 forces_.h()  forces.f90:0
+ 1 0x000000000041710e run_driver_IP_driver_posdata_.h()  run_driver.f90:0
+ 2 0x0000000000414462 run_driver_.h()  run_driver.f90:0
+ 3 0x0000000000413290 MAIN__()  ???:0
+ 4 0x00000000004130d2 main()  ???:0
+ 5 0x0000000000022555 __libc_start_main()  ???:0
+ 6 0x0000000000412fe9 _start()  ???:0
+=================================
+forrtl: severe (174): SIGSEGV, segmentation fault occurred
+Image              PC                Routine            Line        Source             
+pw.x               0000000001CE09B3  Unknown               Unknown  Unknown
+libpthread-2.17.s  00002AAAB1CE2630  Unknown               Unknown  Unknown
+pw.x               0000000000526E68  Unknown               Unknown  Unknown
+pw.x               000000000041710E  Unknown               Unknown  Unknown
+pw.x               0000000000414462  Unknown               Unknown  Unknown
+pw.x               0000000000413290  Unknown               Unknown  Unknown
+pw.x               00000000004130D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AAAB39E2555  __libc_start_main     Unknown  Unknown
+pw.x               0000000000412FE9  Unknown               Unknown  Unknown
+==== backtrace (tid: 153469) ====
+ 0 0x0000000000526e68 forces_.h()  forces.f90:0
+ 1 0x000000000041710e run_driver_IP_driver_posdata_.h()  run_driver.f90:0
+ 2 0x0000000000414462 run_driver_.h()  run_driver.f90:0
+ 3 0x0000000000413290 MAIN__()  ???:0
+ 4 0x00000000004130d2 main()  ???:0
+ 5 0x0000000000022555 __libc_start_main()  ???:0
+ 6 0x0000000000412fe9 _start()  ???:0
+=================================
+forrtl: severe (174): SIGSEGV, segmentation fault occurred
+Image              PC                Routine            Line        Source             
+pw.x               0000000001CE09B3  Unknown               Unknown  Unknown
+libpthread-2.17.s  00002AAAB1CE2630  Unknown               Unknown  Unknown
+pw.x               0000000000526E68  Unknown               Unknown  Unknown
+pw.x               000000000041710E  Unknown               Unknown  Unknown
+pw.x               0000000000414462  Unknown               Unknown  Unknown
+pw.x               0000000000413290  Unknown               Unknown  Unknown
+pw.x               00000000004130D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AAAB39E2555  __libc_start_main     Unknown  Unknown
+pw.x               0000000000412FE9  Unknown               Unknown  Unknown
+Traceback (most recent call last):
+  File "qn_opt.py", line 28, in <module>
+    dyn.run(fmax=0.03)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/optimize/optimize.py", line 298, in run
+    return Dynamics.run(self)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/optimize/optimize.py", line 185, in run
+    for converged in Dynamics.irun(self):
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/optimize/optimize.py", line 164, in irun
+    self.step()
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/optimize/bfgslinesearch.py", line 122, in step
+    ls._line_search(self.func, self.fprime, r, self.p, g, e, self.e0,
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/utils/linesearch.py", line 57, in _line_search
+    fval = func(xk + stp * pk, *args)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/optimize/bfgslinesearch.py", line 171, in func
+    return (self.atoms.get_potential_energy(
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/atoms.py", line 729, in get_potential_energy
+    energy = self._calc.get_potential_energy(
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ggusmao-espresso/espresso/espresso.py", line 2341, in get_potential_energy
+    self.update(atoms)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ggusmao-espresso/espresso/iespresso.py", line 630, in update
+    self.calculate(atoms, properties)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ggusmao-espresso/espresso/iespresso.py", line 684, in calculate
+    results = self.server.calculate(atoms,properties)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ggusmao-espresso/espresso/iespresso.py", line 495, in calculate
+    return self.protocol.calculate(atoms.positions, atoms.cell, properties)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ggusmao-espresso/espresso/iespresso.py", line 328, in calculate
+    r = self.ionic_step(positions, cell, properties)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ggusmao-espresso/espresso/iespresso.py", line 312, in ionic_step
+    msg = self.status()
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ggusmao-espresso/espresso/iespresso.py", line 261, in status
+    msg = self.recvmsg()
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ggusmao-espresso/espresso/iespresso.py", line 132, in recvmsg
+    msg = self._recvall(nat)
+  File "/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ggusmao-espresso/espresso/iespresso.py", line 120, in _recvall
+    chunk = self.socket.recv(remaining)
+ConnectionResetError: [Errno 104] Connection reset by peer
+PSP directory successfully set: /storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/data/pseudos_module/espresso/esp_pseudos_old
+/storage/coda1/p-amedford6/0/shared/rich_project_chbe-medford/medford-share/gits/dev/ase-latest/ase/utils/__init__.py:62: FutureWarning: Please use atoms.cell.rank instead
+  warnings.warn(warning)
